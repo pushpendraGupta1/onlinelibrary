@@ -42,6 +42,7 @@ public class CreateServlet extends HttpServlet {
 			out.print("Sorry,Registration failed. please try later");
 			RequestDispatcher rd=request.getRequestDispatcher("member.jsp");
 			rd.include(request, response);
+			System.out.println("Hello others as well hahahaha");
 		}
 		
 	out.close();	
